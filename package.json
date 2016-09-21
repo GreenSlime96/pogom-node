@@ -1,0 +1,28 @@
+{
+  "name": "pogom-node",
+  "version": "0.0.1",
+  "description": "Web interface for PokemonGo-Map workers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenSlime96/pogom-node.git"
+  },
+  "keywords": [
+    "pokemon",
+    "pokemon-go"
+  ],
+  "author": "Kheng Boon Pek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreenSlime96/pogom-node/issues"
+  },
+  "homepage": "https://github.com/GreenSlime96/pogom-node#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mysql": "^2.11.1",
+    "socket.io": "^1.4.8"
+  }
+}
